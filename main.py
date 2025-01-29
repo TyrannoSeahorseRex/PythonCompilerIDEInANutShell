@@ -58,3 +58,5 @@ menu_bar.add_cascade(label='File', menu=file_menu)
 exit_com = Menu(menu_bar, tearoff=0)
 exit_com.add_command(label='Exit', command=exit)
 menu_bar.add_cascade(label='Exit', menu=exit_com)
+
+compiler.config(menu=menu_bar)
