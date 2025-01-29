@@ -41,3 +41,5 @@ def open_file():
     editor.delete('1.0', END)
     editor.insert('1.0', code)
     set_file_path(path)
+
+menu_bar = Menu(compiler)
