@@ -5,3 +5,5 @@ import subprocess
 
 compiler = Tk()
 compiler.title('IDE IN A NUT-SHELL 🌰')
+
+file_path = ''
