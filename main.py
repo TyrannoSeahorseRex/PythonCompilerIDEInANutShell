@@ -63,3 +63,6 @@ compiler.config(menu=menu_bar)
 
 editor = Text()
 editor.pack()
+
+code_output = Text(height=10)
+code_output.pack()
