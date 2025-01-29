@@ -43,3 +43,7 @@ def open_file():
     set_file_path(path)
 
 menu_bar = Menu(compiler)
+
+run_bar = Menu(menu_bar, tearoff=0)
+run_bar.add_command(label='Run', command=run)
+menu_bar.add_cascade(label='Run', menu=run_bar)
