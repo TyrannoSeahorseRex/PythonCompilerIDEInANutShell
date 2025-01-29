@@ -1,7 +1,3 @@
-Here’s a README for your **IDE In A Nutshell 🌰** project:  
-
----
-
 # IDE In A Nutshell 🌰  
 
 **IDE In A Nutshell** is a **simple and lightweight Python Compiler IDE**, designed for quick and easy Python coding. Whether you're a beginner testing snippets or an experienced developer needing a minimalistic environment, this IDE gets the job done.  
