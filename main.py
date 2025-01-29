@@ -23,3 +23,13 @@ def run():
   output, error = process.communicate()
   code_output.insert(END, output)
   code_output.insert(END, error)
+
+def save_as():
+  if file_path == '':
+    path = asksaveasfilename(filetypes=[('Python Files', '*.py')])
+  else:
+    path = file_path
+  with open(path, 'w') as file:
+    code = editor.get('1.0', END)
+    file.write(code)
+    set_file_path(path)
