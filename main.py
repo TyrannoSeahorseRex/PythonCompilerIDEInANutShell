@@ -7,3 +7,7 @@ compiler = Tk()
 compiler.title('IDE IN A NUT-SHELL 🌰')
 
 file_path = ''
+
+def set_file_path(path):
+  global file_path
+  file_path = path
